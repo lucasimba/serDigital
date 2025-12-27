@@ -1,0 +1,13 @@
+@media screen and (max-width: 26.75rem ) and (orientation: portrait) {
+  .nav-header_list {
+    display: none;
+  } 
+
+  .btn-hamburger {
+    
+  }
+
+  .container-hamburger {
+    display: inline-block;
+  }
+}
