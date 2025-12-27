@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --primary-blue: #8eadd5;
+  /* --primary-blue: #8eadd5; */
+  --primary-blue: #47576b;
   --off-black: #272d38;
   --off-black2: #667085;
   --off-white: #fff;
@@ -238,7 +239,7 @@ p {
   padding: 15px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: var(--off-white2);
+  /* background-color: var(--off-white2); */
   border-radius: 15px;
   margin-bottom: 35px;
 }
@@ -315,6 +316,6 @@ p {
   gap: 10px;  
 }
 
-.section-footer_link, .section-footer_address_list li a, .section-footer_subtitle {
+/* .section-footer_link, .section-footer_address_list li a, .section-footer_subtitle {
   color: var(--off-black2);
-}
+} */
