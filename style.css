@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter";
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+nav {
+  max-width: 130rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 25px;
+  font-size: 1.5rem;
+}
+
+header {
+}
+
+.nav-header_logo {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-header_list {
+  display: flex;
+  gap: 55px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 130rem;
+}
+
+.section-cta {
+  background: radial-gradient(circle at top left, #6670851e 5%, transparent 20%);
+  /* background-origin: top left; */
+  background-position: top 10% left 10%;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 35px;
+  flex-wrap: nowrap;
+}
+
+.section-cta_article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.section-cta_article_title {
+  font-size: 8rem;
+}
+
+.section-cta_article_subtitle {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+.section-cta figure img {
+  width: 450px;
+  height: 450px;
+}
+
+.section-cta-btn {
+  background-color: #8eadd5;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1.6rem;
+}
+
+.section-partners {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  height: 15vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-partners-title {
+  color: #667085;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.section-partners-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.section-branding-analisys {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  height: 100vh;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.section-branding-analisys_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-branding-analisys_title {
+  font-size: 7rem;
+}
+
+.section-branding-analisys_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 70px;
+}
+
+.btn-go {
+  height: 1.8rem;
+}
+
+.btn-link {
+  margin-top: 5rem;
+}
