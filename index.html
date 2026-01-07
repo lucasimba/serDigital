@@ -9,14 +9,23 @@
 
     <title>Document</title>
     <script
-      src="https://kit.fontawesome.com/5be0945cad.js"
-      crossorigin="anonymous"
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
   </head>
   <body>
     <header>
       <nav>
         <a href="#" class="nav-header_logo">Ser Digital</a>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-btn">
+          <img src="imagens/menu-outline.svg" alt="icone de menu" class="icon icon-menu" />
+          <img src="imagens/close-outline.svg" alt="icone de fechar" class="icon icon-close" />
+        </label>
         <ul class="nav-header_list">
           <li><a href="#" class="nav-header_items">home</a></li>
           <li><a href="#" class="nav-header_items">sobre</a></li>
@@ -24,16 +33,20 @@
           <li><a href="#" class="nav-header_items">contato</a></li>
         </ul>
 
-        <label for="" class="container-hamburger">
+        <!-- <label for="" class="container-hamburger">
           <input
             type="checkbox"
             name="btn-hamburger"
             id="btn-hamburger"
             class="btn-hamburger"
           />
-          <i class="fa-solid fa-xmark"></i>
-          <i class="fa-solid fa-bars"></i>
-        </label>
+          <div class="t1">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="t2">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </label> -->
       </nav>
     </header>
     <main>
@@ -182,15 +195,15 @@
     <footer class="section-footer">
       <div class="section-footer_items">
         <h3 class="section-footer_title">SER DIGITAL</h3>
-        
+
         <p class="section-footer_subtitle">
           Produtos, Marcas & Experiências Digitais
         </p>
-        
+
         <p class="section-footer_subtitle">
           Produtos, Marcas & Experiências Digitais
         </p>
-        
+
         <ul class="section-footer_social">
           <li><a href="#"></a><i class="fa-brands fa-instagram"></i></li>
           <li><a href="#"></a><i class="fa-brands fa-facebook"></i></li>

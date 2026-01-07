@@ -7,7 +7,7 @@
   --off-black2: #667085;
   --off-white: #fff;
   --off-white2: #f6f6f6;
-  --desktop: 90rem
+  --desktop: 90rem;
 }
 
 * {
@@ -56,14 +56,22 @@ nav {
   gap: 55px;
 }
 
+#menu-toggle {
+  display: none;
+}
 
-.container-hamburger {
+.menu-btn {
+  display: none;
+}
+
+
+/* .container-hamburger {
   display: none;
 }
 
 .btn-hamburger {
   display: none;
-}
+} */
 
 main {
   margin: 0 auto;

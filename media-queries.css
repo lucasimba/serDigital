@@ -1,13 +1,36 @@
-@media screen and (max-width: 26.75rem ) and (orientation: portrait) {
-  .nav-header_list {
+@media screen and (max-width: 26.75rem) and (orientation: portrait) {
+  #menu-toggle {
     display: none;
-  } 
-
-  .btn-hamburger {
-    
   }
 
-  .container-hamburger {
+  .menu-btn {
+    
     display: inline-block;
+    position: relative;
+    width: 2.6rem;
+    height: 2.6rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .icon {
+    width: 100%;
+    display: inline-block;
+  }
+
+  #menu-toggle:checked ~ .menu-btn .icon-menu {
+    display: none;
+  }
+
+  #menu-toggle:checked ~ .menu-btn .icon-close {
+    display: inline-block;
+  }
+
+  .icon-close {
+    display: none;
+  }
+
+  .nav-header_list {
+    display: none;
   }
 }
