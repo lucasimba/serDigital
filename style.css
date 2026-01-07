@@ -121,10 +121,10 @@ p {
   font-size: 1.8rem;
 }
 
-.section-cta figure img {
+/* .section-cta figure img {
   width: 450px;
   height: 450px;
-}
+} */
 
 .section-cta-btn,
 .support-info_cta-btn {
@@ -276,7 +276,7 @@ p {
   width: 100%;
 }
 
-.supporting_woman {
+.supporting_woman, .supporting_woman2 {
   width: 450px;
   height: 450px;
   display: flex;
