@@ -1,5 +1,10 @@
 /* 428px */
-@media screen and (max-width: 26.75rem) and (orientation: portrait) {
+@media screen and (max-width: 26.75em) and (orientation: portrait) {
+  main {
+    max-width: 26.75em;
+    margin: 0 auto;
+  }
+
   .menu-btn {
     display: inline-block;
     position: relative;
@@ -42,7 +47,7 @@
     flex-direction: column;
     top: 64.5px;
     left: 0;
-    background-color: var(--off-white2);    
+    background-color: var(--off-white2);
     width: 100%;
     height: 50%;
     align-items: flex-end;
@@ -62,7 +67,8 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .section-cta_article {
@@ -71,14 +77,21 @@
     align-items: center;
   }
 
-  .section-cta_article_title {
+  .section-cta_article_title,
+  .section-branding-analisys_title {
     font-size: 4rem;
     text-align: center;
   }
 
-  .section-cta_article_subtitle {
+  .section-cta_article_subtitle,
+  .section-branding-analisys_subtitle {
     font-size: 1.6rem;
     text-align: center;
+  }
+
+  .section-branding-analisys_info {
+    display: flex;
+    align-items: center;
   }
 
   .supporting_woman {
@@ -87,4 +100,65 @@
   .supporting_woman2 {
     display: none;
   }
+
+  .section-partners {
+    max-width: 26.75em;
+    height: 20vh;
+    margin: 0 auto;
+  }
+
+  .section-partners-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .section-partners-list {
+  }
+
+  .section-branding-analisys {
+    max-width: 26.75em;
+    margin: 0 auto;
+  }
+
+  .section-branding-analisys_item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-branding-analisys_item:first-child {
+    flex-direction: column-reverse;
+  }
+
+  .section-testimonials {
+    display: flex;
+    flex-direction: column;
+    max-width: 26.75em;
+    margin: 0 auto;
+  }
+
+  .section-testimonials_subtitle {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .list-testimonials_testimonial {
+    display: flex;
+    flex-direction: column;
+  }
+
+.support-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+  .support-info_title {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .support-info_text {
+    text-align: center;
+  }
+}
+
