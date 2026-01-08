@@ -3,7 +3,12 @@
   main {
     max-width: 26.75em;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+  
 
   .menu-btn {
     display: inline-block;
@@ -75,6 +80,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* height: 40vh; */
   }
 
   .section-cta_article_title,
@@ -83,14 +89,17 @@
     text-align: center;
   }
 
+  
+  
+
   .section-partners-list {
-    max-width: 26.75em;
-    display: flex;
+    max-width: 100vw;
+    gap: 15px;    
+    padding: 2rem;
   }
 
   .section-partners-logo {
-    display: inline-block;
-    width: 50%;
+    height: 24px;    
   }
 
   .section-branding-analisys {
@@ -107,25 +116,10 @@
   .section-branding-analisys_info {
     display: flex;
     align-items: center;
-  }
-
-  .supporting_woman {
-  }
+  }  
 
   .supporting_woman2 {
     display: none;
-  }
-
-  .section-partners {
-    max-width: 26.75em;
-
-    margin: 0 auto;
-    display: flex;
-  }
-
-  .section-partners-logo {
-    display: inline-block;
-    width: 100%;
   }
 
   .section-partners-title {
@@ -188,5 +182,15 @@
     padding: 10px;
     align-items: center;
     text-align: center;
+  }
+
+  .section-footer_items {
+    align-items: center;
+    gap: 15px;
+  }
+
+  .section-footer_social li a{    
+    display: inline-block;
+    height: 2rem;
   }
 }
