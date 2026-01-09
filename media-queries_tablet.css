@@ -84,12 +84,8 @@
   }
 
   .section-support {
-    flex-direction: column;
-  }
-
-  p {
-    color: red;
-  }
+    flex-direction: column-reverse;
+  }  
 
   .section-branding-analisys_item,
   .section-branding-analisys_info,

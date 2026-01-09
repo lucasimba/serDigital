@@ -3,7 +3,7 @@
   main {
     max-width: 26.75em;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
   }
 
   .menu-btn {
@@ -64,23 +64,24 @@
   }
 
   .section-cta {
-    justify-content: flex-start;    
-    flex-direction: column;    
+    justify-content: flex-start;
+    flex-direction: column;
   }
 
   .section-cta_article {
-    align-items: center;    
+    align-items: center;
   }
 
   .section-cta_article_title,
   .section-branding-analisys_title {
     font-size: 4rem;
     text-align: center;
+    margin-bottom: 1.5rem;
   }
 
   .section-partners {
-  justify-content: flex-start;
-  align-self: center;
+    justify-content: flex-start;
+    align-self: center;
   }
 
   .section-partners-list {
@@ -95,7 +96,7 @@
 
   .section-branding-analisys {
     max-width: 26.75em;
-    margin: 0 auto;    
+    margin: 0 auto;
   }
 
   .section-cta_article_subtitle,
@@ -108,10 +109,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0;
   }
 
-  .section-branding-analisys img {
+  .section-branding-analisys_img {
+    margin-top: 1.5rem;
     justify-self: center;
+    height: 24rem;
+    width: 24rem;
+  }
+
+  .btn-go {
+    display: inline-block;
+    width: 1.34rem;
   }
 
   .supporting_woman2 {
@@ -147,13 +157,17 @@
   }
 
   .section-testimonials_subtitle {
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
   }
 
   .list-testimonials_testimonial {
     display: flex;
     flex-direction: column;
+  }
+
+  .testimonial_name {
+    font-size: 1.125rem;
   }
 
   .support-info {
@@ -163,24 +177,27 @@
   }
 
   .support-info_title {
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
   }
 
   .support-info_text {
+    font-size: 1rem;
     text-align: center;
   }
 
   .section-support {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
   }
 
   .section-footer {
-    flex-direction: column;        
+    flex-direction: column;
     align-items: center;
-    text-align: center;    
+    text-align: center;
+    height: 66.875rem;
+    background-color: red;
   }
 
   .section-footer_items {

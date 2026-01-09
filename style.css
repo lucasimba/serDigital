@@ -30,19 +30,20 @@ ul li {
   list-style-type: none;
 }
 
-nav {
-  /* max-width: 130rem; */
-  /* max-width: 106.5rem; */
+nav {  
   max-width: var(--desktop);
   display: flex;
   margin: 0 auto;
   align-items: center;
-  justify-content: space-between;
-  /* height: 10vh; */
-  padding: 25px;
-  font-size: 1.5rem;
+  justify-content: space-between;  
+  padding: 25px;  
   border-radius: 0 0 15px 15px;
   background-color: var(--off-white2);
+}
+
+.nav-header_items {
+  font-size: 1.125rem;
+  text-transform: lowercase;
 }
 
 .nav-header_logo {
@@ -79,7 +80,7 @@ main {
   max-width: var(--desktop);
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 45px;
 }
 
 .section-cta {
@@ -96,7 +97,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  padding: 10px;
+  padding: 15px;
   flex-wrap: nowrap;
 }
 
@@ -104,27 +105,17 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
-  padding: 25px;
+  gap: 25px;
 }
 
 .section-cta_article_title {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .section-cta_article_subtitle {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
-
-p {
-  font-size: 1.8rem;
-}
-
-/* .section-cta figure img {
-  width: 450px;
-  height: 450px;
-} */
 
 .section-cta-btn,
 .support-info_cta-btn {
@@ -136,20 +127,16 @@ p {
 }
 
 .section-partners {
-  /* max-width: 130rem; */
   max-width: var(--desktop);
-  /* margin: 1.5rem 0 1.5rem; */
   display: flex;
-  /* height: 20vh; */
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   border-radius: 15px;
+  padding: 15px;
 }
 
 .section-partners-title {
   color: var(--off-black2);
-  /* font-weight: 200; */
   font-weight: 300;
   margin-bottom: 15px;
   text-align: center;
@@ -179,9 +166,8 @@ p {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 10px;
+  padding: 15px;
   gap: 15px;
-  /* height: 70%; */
 }
 
 .section-branding-analisys_item {
@@ -191,16 +177,19 @@ p {
   justify-content: center;
 }
 
-.section-branding-analisys_title {
-  font-size: 6rem;
-}
-
 .section-branding-analisys_info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* padding: 50px; */
-  gap: 15px;
+  gap: 25px;
+}
+
+.section-branding-analisys_title {
+  font-size: 4rem;
+}
+
+.section-branding-analisys_subtitle {
+  font-size: 1.6rem;
 }
 
 .btn-go {
@@ -226,17 +215,18 @@ p {
 }
 
 .section-testimonials_subtitle {
-  font-size: 4.6rem;
+  font-size: 2.875rem;
   margin-bottom: 2rem;
 }
 
 .testimonial_name {
-  font-size: 1.6rem;
+  font-size: 1.75rem;
+  font-weight: 400;
 }
 
 .testimonial_text {
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
 .list-testimonials_testimonial {
@@ -259,7 +249,7 @@ p {
   justify-content: center;
   text-align: center;
   gap: 27px;
-  padding: 10px;
+  padding: 15px;
   width: 34.5rem;
   height: 33.4rem;
   background-color: var(--off-white2);
@@ -271,12 +261,12 @@ p {
   height: 13rem;
 }
 
-.section-support {  
+.section-support {
   max-width: var(--desktop);
   background-color: var(--off-white2);
-  padding: 10px;
-  display: flex;  
-  align-items: center;  
+  padding: 15px;
+  display: flex;
+  align-items: center;
   justify-content: space-around;
   border-radius: 15px;
   margin-bottom: 35px;
@@ -286,11 +276,12 @@ p {
 .support-info {
   display: flex;
   flex-direction: column;
-  align-items: start;    
-  gap: 15px;
+  align-items: start;
+  gap: 25px;
   line-height: 1.2;
   text-align: left;
   width: 100%;
+  padding: 15px;
 }
 
 .supporting_woman,
@@ -303,11 +294,11 @@ p {
 }
 
 .support-info_title {
-  font-size: 3rem;
+  font-size: 2.875rem;
 }
 
 .support-info_text {
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.5;
 }
@@ -339,18 +330,15 @@ p {
 }
 
 .section-footer_title {
-  font-size: 2rem;
+  font-size: 1.125rem;
+  margin-bottom: 5.5rem;
 }
 
 .section-footer_social li,
 .section-footer_subtitle,
 .section-footer_link,
 .section-footer_address a {
-  font-size: 1.8rem;
-}
-
-.section-footer_title {
-  margin-bottom: 5.5rem;
+  font-size: 1rem;
 }
 
 .section-footer_subtitle {
@@ -364,7 +352,7 @@ p {
 }
 
 .section-footer_social_item {
-  height: 2rem;
+  height: 1rem;
 }
 
 .section-footer_address_list li a {
