@@ -1,14 +1,10 @@
-/* 428px */
+/* 428px - mobile start */
 @media screen and (max-width: 26.75em) and (orientation: portrait) {
   main {
     max-width: 26.75em;
-    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;    
   }
-
-  
 
   .menu-btn {
     display: inline-block;
@@ -67,20 +63,13 @@
     font-size: 2rem;
   }
 
-  .section-cta,
-  .section-support {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: space-around;
-    align-items: center;
+  .section-cta {
+    justify-content: flex-start;    
+    flex-direction: column;    
   }
 
   .section-cta_article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* height: 40vh; */
+    align-items: center;    
   }
 
   .section-cta_article_title,
@@ -89,22 +78,24 @@
     text-align: center;
   }
 
-  
-  
+  .section-partners {
+  justify-content: flex-start;
+  align-self: center;
+  }
 
   .section-partners-list {
     max-width: 100vw;
-    gap: 15px;    
+    gap: 15px;
     padding: 2rem;
   }
 
   .section-partners-logo {
-    height: 24px;    
+    height: 24px;
   }
 
   .section-branding-analisys {
     max-width: 26.75em;
-    margin: 0 auto;
+    margin: 0 auto;    
   }
 
   .section-cta_article_subtitle,
@@ -115,8 +106,13 @@
 
   .section-branding-analisys_info {
     display: flex;
+    flex-direction: column;
     align-items: center;
-  }  
+  }
+
+  .section-branding-analisys img {
+    justify-self: center;
+  }
 
   .supporting_woman2 {
     display: none;
@@ -135,6 +131,8 @@
   .section-branding-analisys_item {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 1rem;
   }
 
   .section-branding-analisys_item:first-child {
@@ -173,15 +171,16 @@
     text-align: center;
   }
 
-  .section-footer {
-    max-width: 100%;
-    margin: 0 auto;
+  .section-support {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding: 10px;
+    align-items: center;    
+  }
+
+  .section-footer {
+    flex-direction: column;        
     align-items: center;
-    text-align: center;
+    text-align: center;    
   }
 
   .section-footer_items {
@@ -189,8 +188,9 @@
     gap: 15px;
   }
 
-  .section-footer_social li a{    
+  .section-footer_social li a {
     display: inline-block;
     height: 2rem;
   }
 }
+/* 428px - mobile end */
